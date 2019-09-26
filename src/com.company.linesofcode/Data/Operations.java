@@ -16,7 +16,7 @@ public class Operations {
             e.printStackTrace();
         }
         while (s.hasNext()) {
-            String string = (String) s.nextLine();
+            String string = s.nextLine();
             if (string != null) {
                 lineCount++;
             }

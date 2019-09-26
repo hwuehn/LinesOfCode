@@ -20,6 +20,8 @@ public class Operations {
         System.out.println(lines);
         long count = str.lines().count();
         System.out.println(count);
+
+        str.lines().forEach(System.out::println);
     }
 
     public static void testLinesOfCodeFromFile() {

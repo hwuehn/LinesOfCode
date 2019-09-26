@@ -10,6 +10,11 @@ public class Main {
         source.linesPrinted();
         Operations functions = new Operations();
         functions.testLinesOfCodeFromFile();
+        functions.testlinesOfCodeFromString();
+
+
+
+
     }
 
 

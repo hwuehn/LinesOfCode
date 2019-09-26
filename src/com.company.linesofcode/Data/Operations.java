@@ -2,10 +2,24 @@ package Data;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
+
 import java.util.Scanner;
+
 
 public class Operations {
     private static int lineCount;
+
+    public static void testlinesOfCodeFromString() {
+        String str = "\nHi\nHello\nYes\r\nNo\n";
+
+        List<String> lines = new ArrayList<>();
+        str.lines().forEach(s -> lines.add(s));
+
+        System.out.println(lines);
+
+    }
 
     public static void testLinesOfCodeFromFile() {
         Scanner s = null;

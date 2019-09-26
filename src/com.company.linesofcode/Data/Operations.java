@@ -11,6 +11,10 @@ import java.util.Scanner;
 public class Operations {
     private static int lineCount;
 
+    public static void testLinesOfCodeFromString(String str) {
+
+    }
+
     public static void testlinesOfCodeFromString() {
         String str = "\nHi\nHello\nYes\r\nNo\n";
 

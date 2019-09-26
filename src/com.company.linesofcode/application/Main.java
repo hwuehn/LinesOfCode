@@ -13,6 +13,15 @@ public class Main {
         functions.testlinesOfCodeFromString();
 
 
+        String text ="package Data;\npublic class CodeExample {\npublic void linesPrinted() {\n" +
+        "System.out.println(" + "These are some lines of code\n" +
+        "for the example class\n" +
+        "printed via main-method." + "  );\n" +
+        "System.out.println("+"a new line..."+");\n" +
+        "     }" +
+        "}";
+
+
 
 
     }

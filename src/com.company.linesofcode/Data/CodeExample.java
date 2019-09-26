@@ -6,5 +6,6 @@ public class CodeExample {
         System.out.println("These are some lines of code\n" +
                            "for the example class\n" +
                            "printed via main-method." );
+        System.out.println("a new line...");
     }
 }

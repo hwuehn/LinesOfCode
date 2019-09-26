@@ -18,7 +18,8 @@ public class Operations {
         str.lines().forEach(s -> lines.add(s));
 
         System.out.println(lines);
-
+        long count = str.lines().count();
+        System.out.println(count);
     }
 
     public static void testLinesOfCodeFromFile() {

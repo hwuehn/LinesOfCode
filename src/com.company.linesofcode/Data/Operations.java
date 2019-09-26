@@ -1,5 +1,7 @@
 package Data;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -12,6 +14,9 @@ public class Operations {
     private static int lineCount;
 
     public static void testLinesOfCodeFromString(String str) {
+        long count = str.lines().count();
+        System.out.println(count);
+        str.lines().forEach(System.out::println);
 
     }
 

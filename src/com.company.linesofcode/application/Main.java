@@ -9,8 +9,8 @@ public class Main {
         CodeExample source = new CodeExample();
         source.linesPrinted();
         Operations functions = new Operations();
-        functions.testLinesOfCodeFromFile();
-        functions.testlinesOfCodeFromString();
+        //functions.testLinesOfCodeFromFile();
+        //functions.testlinesOfCodeFromString();
 
 
         String text ="package Data;\npublic class CodeExample {\npublic void linesPrinted() {\n" +
@@ -18,8 +18,10 @@ public class Main {
         "for the example class\n" +
         "printed via main-method." + "  );\n" +
         "System.out.println("+"a new line..."+");\n" +
-        "     }" +
+        "}\n" +
         "}";
+
+        functions.testLinesOfCodeFromString(text);
 
 
 

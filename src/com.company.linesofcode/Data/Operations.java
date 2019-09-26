@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Operations {
     private static int lineCount;
 
-    public static void testLinesOfCode() {
+    public static void testLinesOfCodeFromFile() {
         Scanner s = null;
         try {
             File file = new File("src\\com.company.linesofcode\\data\\CodeExample.java");

@@ -9,7 +9,7 @@ public class Main {
         CodeExample source = new CodeExample();
         source.linesPrinted();
         Operations functions = new Operations();
-        functions.testLinesOfCode();
+        functions.testLinesOfCodeFromFile();
     }
 
 

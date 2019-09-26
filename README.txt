@@ -1,9 +1,9 @@
 
 Function Kata “LOC”
 
-Entwickle eine Funktion, die die Lines of Code (LOC) in einem wohlgeformten C# Quelltext zählt.
+Entwickle eine Funktion, die die Lines of Code (LOC) in einem wohlgeformten Quelltext zählt.
 
-Der Quelltext wird als String angeliefert, zurückgegeben wird die Zahl der Zeilen, die ausführbaren Code enthalten. 
+Der Quelltext wird als String | Datei angeliefert, zurückgegeben wird die Zahl der Zeilen, die ausführbaren Code enthalten.
 Zeilen, die nur aus Kommentar oder Whitespace bestehen, sollen also herausgefiltert werden [1].
 
 Variation #1
